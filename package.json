@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-generator",
+  "version": "1.0.0",
+  "description": "GUI For generating ESLint Config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "pre-commit install"
+  },
+  "devDependencies": {
+    "eslint": "3.14.1",
+    "eslint-config-google": "^0.7.1",
+    "eslint-config-prettier": "^1.7.0",
+    "stylelint": "7.10.1",
+    "stylelint-config-standard": "16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awebdeveloper/eslint-config-generator.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "generator"
+  ],
+  "author": "awebdeveloper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/awebdeveloper/eslint-config-generator/issues"
+  },
+  "homepage": "https://github.com/awebdeveloper/eslint-config-generator#readme"
+}

@@ -1,0 +1,33 @@
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    sha: 5bf6c09bfa1297d3692cadd621ef95f1284e33c0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-json
+    -   id: pretty-format-json
+        args:
+        - --indent
+        - '2'
+        - --no-sort-keys
+    -   id: check-merge-conflict
+    -   id: check-symlinks
+    -   id: check-json
+-   repo: https://github.com/awebdeveloper/pre-commit-prettier
+    sha: '55702ab9f48cd9edb063b1516bbdd16bde14af32'
+    hooks:
+    -   id: prettier
+        additional_dependencies:
+        - 'prettier@1.1.0'
+-   repo: https://github.com/pre-commit/mirrors-eslint
+    sha: v3.18.0
+    hooks:
+    -   id: eslint
+        additional_dependencies:
+        - eslint@3.12.2
+        - eslint-config-google@0.7.1
+-   repo: https://github.com/awebdeveloper/pre-commit-stylelint
+    sha: 'f792d6b33f0673991b8c044b5bb3bcae0399ada5'
+    hooks:
+    -   id: stylelint
+        additional_dependencies:
+        - 'stylelint@7.10.1'
+        - 'stylelint-config-standard@16.0.0'
