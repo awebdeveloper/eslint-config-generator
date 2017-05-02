@@ -27,6 +27,9 @@ class MyOncogene extends Oncogene {
 
 new MyOncogene({
   selector: '.oncogene',
+  config: {
+    "extends": "eslint:recommended"
+  },
   steps: [{
     key: 'ecmaVersion',
     hint: 'Specify Ecmascript Version',
@@ -92,5 +95,32 @@ new MyOncogene({
       code: 'Shared Node Browser',
       value: {"shared-node-browser":true}
     }]
-  }]
+  },
+  {
+    key: 'rules.indent',
+    hint: 'Allow JSX',
+    variants: [{
+        hint: '2 Spaces',
+        code:
+`if(a) {
+<mark>  </mark>return true;
+}`,
+        value: ["error", 2]
+    }, {
+        hint: '4 Spaces',
+        code:
+`if(a) {
+<mark>    </mark>return true;
+}`,
+        value: ["error", 4]
+    },{
+        hint: 'Tab',
+        code:
+`if(a) {
+<mark>  </mark>return true;
+}`,
+        value: ["error", "tab"]
+    }]
+  },
+  ]
 })
