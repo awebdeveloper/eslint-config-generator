@@ -1,0 +1,50 @@
+.flex {
+  display: flex;
+}
+
+.oncogene {
+  flex-grow: 1;
+}
+
+.oncogene__hint {
+  margin-left: 18px;
+  font-weight: 700;
+}
+
+.result,
+.oncogene-variants__item {
+  flex-basis: 500px;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.oncogene-variants__item {
+  margin: 16px;
+}
+
+.config,
+.oncogene-variants__code {
+  font-family: monospace;
+  white-space: pre;
+  border: 1px solid #999;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.oncogene-variants__code {
+  cursor: pointer;
+}
+
+.padding {
+  padding: 20px;
+}
+
+.block-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.oncogene__progress {
+  float: right;
+  padding-right: 20px;
+}
