@@ -24,6 +24,7 @@
         additional_dependencies:
         - eslint@3.12.2
         - eslint-config-google@0.7.1
+        - eslint-config-prettier@1.7.0
 -   repo: https://github.com/awebdeveloper/pre-commit-stylelint
     sha: 'f792d6b33f0673991b8c044b5bb3bcae0399ada5'
     hooks:
