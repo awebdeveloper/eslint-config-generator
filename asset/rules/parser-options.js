@@ -1,6 +1,6 @@
 ESLintConfigGenApp.rules.base = [
   {
-    key: "ecmaVersion",
+    key: "parserOptions.ecmaVersion",
     hint: "Specify Ecmascript Version",
     variants: [
       {
@@ -22,7 +22,7 @@ ESLintConfigGenApp.rules.base = [
     ]
   },
   {
-    key: "sourceType",
+    key: "parserOptions.sourceType",
     hint: "What are you developing",
     variants: [
       {
@@ -36,7 +36,7 @@ ESLintConfigGenApp.rules.base = [
     ]
   },
   {
-    key: "ecmaFeatures.jsx",
+    key: "parserOptions.ecmaFeatures.jsx",
     hint: "Allow JSX",
     variants: [
       {
@@ -51,6 +51,24 @@ ESLintConfigGenApp.rules.base = [
       {
         hint: "No",
         code: "Dont Allow JSX",
+        value: false
+      }
+    ]
+  },
+  {
+    key: "parserOptions.ecmaFeatures.experimentalObjectRestSpread",
+    hint: "Allow Object Rest Spread(experimental)",
+    variants: [
+      {
+        hint: "Yes",
+        code: `{
+<mark>  ...obj1</mark>,
+}`,
+        value: true
+      },
+      {
+        hint: "No",
+        code: "Dont Allow",
         value: false
       }
     ]

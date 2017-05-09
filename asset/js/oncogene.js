@@ -104,7 +104,9 @@ class Oncogene {
     this.getStep().variants.forEach((variant, inx) => {
       const variantNode = this.getVariantNode(variant, inx);
 
-      variants.appendChild(variantNode);
+      if (!Oncogene.isFunction(variant.showIf) || variant.showIf(this.config)) {
+        variants.appendChild(variantNode);
+      }
     });
 
     hint.innerHTML = this.getStep().hint || "";
