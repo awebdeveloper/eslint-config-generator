@@ -58,6 +58,7 @@ ESLintConfigGenApp.rules.env = [
   {
     key: "env",
     hint: "You are writing e2e test in",
+    showIf: config => config.env.browser == true,
     variants: [
       {
         code: "Qunit",
@@ -71,8 +72,7 @@ ESLintConfigGenApp.rules.env = [
         value: {
           protractor: true
         },
-        push: true,
-        showIf: config => config.env.browser == true
+        push: true
       },
       {
         code: "I dont write e2e tests",
@@ -109,7 +109,7 @@ ESLintConfigGenApp.rules.env = [
     hint: "Library i use is",
     variants: [
       {
-        code: "jquery",
+        code: "jQuery",
         value: {
           jquery: true
         },
@@ -117,9 +117,9 @@ ESLintConfigGenApp.rules.env = [
         showIf: config => config.env.browser == true
       },
       {
-        code: "phantomjs",
+        code: "Prototype Js",
         value: {
-          phantomjs: true
+          prototypejs: true
         },
         push: true,
         showIf: config => config.env.browser == true
