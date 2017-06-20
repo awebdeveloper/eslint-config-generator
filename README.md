@@ -7,6 +7,19 @@ Uses this for config generation.
 ## Supported Properties
 
 You can configure these properties:
+- ParseOptions
+  - ecmaVersion
+  - sourceType
+  - ecmaFeatures
+- Enviroment
+  - browser
+  - Jasmine
+  - amd
+  - prototypejs
+  - serviceworker
+- Rules
+  - indentation
+  - Curly braces
 
 ## Credits
 
