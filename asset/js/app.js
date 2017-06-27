@@ -8,6 +8,7 @@ ESLintConfigGenApp.oncogene = new MyOncogene({
     ...ESLintConfigGenApp.rules["env"],
     ...ESLintConfigGenApp.rules["spacing"],
     ...ESLintConfigGenApp.rules["global-require"],
-    ...ESLintConfigGenApp.rules["handle-callback-err"]
+    ...ESLintConfigGenApp.rules["handle-callback-err"],
+    ...ESLintConfigGenApp.rules["curly"]
   ]
 });

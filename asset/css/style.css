@@ -13,7 +13,7 @@ section {
 
 .oncogene__hint {
   margin-left: 18px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .result,
@@ -45,7 +45,7 @@ section {
 }
 
 .block-title {
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 15px;
 }
 
