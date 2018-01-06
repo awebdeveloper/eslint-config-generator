@@ -1,7 +1,7 @@
 ESLintConfigGenApp.rules.spacing = [
   {
     key: "rules.indent",
-    hint: "Allow JSX",
+    hint: "My indentation preferences",
     variants: [
       {
         hint: "2 Spaces",
