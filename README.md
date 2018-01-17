@@ -1,12 +1,12 @@
 # Eslint Config Generator
 
-App for quick generation eslint configuration file. This extends eslint:recommended
+App for quick generation eslint configuration file. 
 
 Uses this for config generation.
 
 ## Supported Properties
 
-You can configure these properties:
+We support very few properties as of now. Send us a pr if you want a missing property to be added:
 
 ## Credits
 
