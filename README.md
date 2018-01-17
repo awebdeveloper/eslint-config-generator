@@ -12,7 +12,7 @@ We support very few properties as of now. Send us a pr if you want a missing pro
   - ecmaVersion
   - sourceType
   - ecmaFeatures
-  - enviroment
+  - env
 - Rules
   - indentation
 
