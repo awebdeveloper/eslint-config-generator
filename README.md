@@ -146,7 +146,7 @@ We support very few properties as of now. Send us a pr if you want a missing pro
 |:x:|[id-blacklist](http://eslint.org/docs/rules/id-blacklist)|disallow certain identifiers to prevent them being used|
 |:x:|[id-length](http://eslint.org/docs/rules/id-length)|this option enforces minimum and maximum identifier lengths (variable names, property names etc.)|
 |:x:|[id-match](http://eslint.org/docs/rules/id-match)|require identifiers to match the provided regular expression|
-|:x:|[indent](http://eslint.org/docs/rules/indent)|enforce consistent indentation|
+|:white_check_mark:|[indent](http://eslint.org/docs/rules/indent)|enforce consistent indentation|
 |:x:|[jsx-quotes](http://eslint.org/docs/rules/jsx-quotes)|specify whether double or single quotes should be used in JSX attributes|
 |:x:|[key-spacing](http://eslint.org/docs/rules/key-spacing)|enforce spacing between keys and values in object literal properties|
 |:x:|[keyword-spacing](http://eslint.org/docs/rules/keyword-spacing)|enforce spacing before and after keywords|
