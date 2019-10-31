@@ -8,7 +8,7 @@
     "prepublish": "pre-commit install"
   },
   "devDependencies": {
-    "eslint": "3.14.1",
+    "eslint": "4.18.2",
     "eslint-config-google": "^0.7.1",
     "eslint-config-prettier": "^1.7.0",
     "stylelint": "7.10.1",
