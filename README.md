@@ -4,6 +4,10 @@ App for quick generation eslint configuration file.
 
 Uses this for config generation.
 
+## Try it out 
+
+https://awebdeveloper.github.io/eslint-config-generator/
+
 ## Supported Properties
 
 We support very few properties as of now. Send us a pr if you want a missing property to be added:
